@@ -6,4 +6,4 @@ Layer들의 영향력을 보려면 Backpropagation의 chain rule을 decompositio
 
 --> 한 뉴럴의 출력에 대한 x의 기여도를 분해시킬 수 있다.
 
-<img src="https://github.com/hyeseongkim0/Explainable_AI/blob/main/images/neuron.PNG" width="80%">
+<img src="https://github.com/hyeseongkim0/Explainable_AI/blob/main/images/neuron.PNG" width="50%">
