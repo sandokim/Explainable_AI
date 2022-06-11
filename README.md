@@ -1,3 +1,5 @@
+# [Grad-CAM: Visual Explanations from Deep Networks](https://glassboxmedicine.com/2020/05/29/grad-cam-visual-explanations-from-deep-networks/)
+
 # Layer-wise Relevance Propagation (LRP)
 
 #### Relevance Socre : x가 출력에 얼마나 영향을 주는가? -> x의 변화가 y의 변화에 얼마나 영향을 주는가?
