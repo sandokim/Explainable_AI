@@ -21,6 +21,12 @@ We perform several ablation studies to explore and validate our design choices f
 
 <img src="https://github.com/sandokim/Explainable_AI/blob/main/images/gap_backprop.jpg" width="50%">
 
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM formula1.PNG" width="50%">
+
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM formula2.PNG" width="50%">
+
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM formula3.PNG" width="50%">
+
 # Deit
 
 [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
