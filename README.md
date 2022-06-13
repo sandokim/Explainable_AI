@@ -7,7 +7,11 @@ Grad-CAM(Gradient-weighted Class Activation Mapping)
 Ablation study는 모델이나 알고리즘을 구성하는 다양한 구성요소(component) 중 어떠한 “feature”를 제거할 때, 성능(performance)에 어떠한 영향을 미치는지 파악하는 방법을 말한다. 제안한 요소가 모델에 어떠한 영향을 미치는지 확인하고 싶을 때, 이 요소를 포함한 모델과 포함하지 않은 모델을 비교하는 것을 말한다. 
 #### -> 이는 딥러닝 연구에서 매우 중요한 의미를 지니는데, 시스템의 인과관계(causality)를 간단히 알아볼 수 있기 때문이다.
 
-<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/ablation_study.png" width="50%">
+#### Apendix
+
+We perform several ablation studies to explore and validate our design choices for computing Grad-CAM visualizations. This includes visualizing different layers in the network, understanding importance of ReLU in (2), analyzing different types of gradients (for ReLU backward pass), and different gradient pooling strategies.
+
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/ablation_study.JPG" width="80%">
 
 ### Grad-CAM Loss
 
