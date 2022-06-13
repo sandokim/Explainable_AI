@@ -37,6 +37,10 @@ While Grad-CAM is class-discriminative and localizes relevant image regions, it 
 
 Replacing Guided Backpropagation with Deconvolution gives similar results, but we found Deconvolution visualizations to have artifacts and Guided Backpropagation to be generally less noisy.
 
+# Weakly-supervised segmentation
+
+Semantic segmentation involves the task of assigning each pixel in the image an object class (or background class). Being a challenging task, this requires expensive pixel-level annotation. The task of weakly-supervised segmentation involves segmenting objects with just image-level annotation, which can be obtained relatively cheaply from image classification datasets.
+
 # Deit
 
 [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
