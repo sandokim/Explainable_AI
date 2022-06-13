@@ -27,6 +27,12 @@ We perform several ablation studies to explore and validate our design choices f
 
 <img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM formula3.PNG" width="50%">
 
+# Guided Backpropagation
+
+While Grad-CAM is class-discriminative and localizes relevant image regions, it lacks the ability to highlight finegrained details like pixel-space gradien visualization methods (Guided Backpropagation [53], Deconvolution [57]).
+
+*Guided Backpropagation visualizes gradients with respect to the image where negative gradients are suppressed when backpropagating through ReLU layers. Intuitively, this aims to capture pixels detected by neurons, not the ones that suppress neurons.*
+
 # Deit
 
 [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
