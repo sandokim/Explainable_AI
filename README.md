@@ -17,6 +17,10 @@ We perform several ablation studies to explore and validate our design choices f
 
 <img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM Loss.png" width="50%">
 
+### Grad-CAM Backprop
+
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/gap_backprop.jpg" width="50%">
+
 # Deit
 
 [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
