@@ -33,6 +33,10 @@ While Grad-CAM is class-discriminative and localizes relevant image regions, it 
 
 *Guided Backpropagation visualizes gradients with respect to the image where negative gradients are suppressed when backpropagating through ReLU layers. Intuitively, this aims to capture pixels detected by neurons, not the ones that suppress neurons.*
 
+# Guided Backpropagation VS Deconvolution
+
+Replacing Guided Backpropagation with Deconvolution gives similar results, but we found Deconvolution visualizations to have artifacts and Guided Backpropagation to be generally less noisy.
+
 # Deit
 
 [Training data-efficient image transformers & distillation through attention](https://arxiv.org/abs/2012.12877)
