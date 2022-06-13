@@ -9,7 +9,7 @@ Ablation study는 모델이나 알고리즘을 구성하는 다양한 구성요�
 
 ### Grad-CAM Loss
 
-<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM Loss.PNG" width="50%">
+<img src="https://github.com/sandokim/Explainable_AI/blob/main/images/Grad-CAM Loss.png" width="50%">
 
 # Deit
 
